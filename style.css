@@ -1,0 +1,177 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+.hero {
+    background-image: url("../mainbg.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.about {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.about-title {
+    font-size: 24px;
+    color: #ffd61a;
+}
+
+.about-subtitle {
+    font-size: 18px;
+    color: #222222;
+}
+.about-text {
+    font-size: 16px;
+    line-height: 1.8;
+}
+.about-photo {
+    width: 100%;
+    display: block;
+}
+.course-row {
+    display: flex;
+}
+
+.course-photo {
+    width: 50%;
+}
+
+.course-text {
+      width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    box-sizing: border-box;
+     background-color: #fafafa;
+}
+.course-intro {
+    text-align: center;
+    padding: 60px 0;
+}
+.news-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.news-item {
+    width: 300px;
+}
+
+.news-photo {
+    width: 100%;
+}
+.news-title {
+    text-align: center;
+    padding: 60px 0 30px;
+}
+.news-item:hover {
+    background-color: #fafafa;
+}
+.access {
+    background-color: #fafafa;
+    text-align: center;
+    padding: 60px 0;
+}
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+.access-map {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+.access-row {
+    display: flex;
+    width: 640px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.access-label {
+    width: 240px;
+}
+
+
+.contact-title {
+    text-align: center;
+    padding: 60px 0 30px;
+}
+
+.form-row {
+    display: flex;
+    width: 640px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.form-label {
+    width: 240px;
+}
+
+.form-input {
+    width: 400px;
+    box-sizing: border-box;
+}
+.form-checkboxes {
+    width: 400px;
+}
+.submit-area {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.submit-button {
+    width: 300px;
+    height: 60px;
+    background-color: #ffd61a;
+    border: 0;
+    font-size: 18px;
+    cursor: pointer;
+}
+.submit-button:hover {
+    background-color: #e6bf00;
+}
+.footer {
+    background-color: #707070;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+.more-area {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.more-button {
+    display: inline-block;
+    width: 300px;
+    line-height: 60px;
+    background-color: #ffd61a;
+}
+    .menu a {
+    color: #222222;
+    text-decoration: none;
+    font-size: 21px;
+}
+.menu a {
+    color: #222222;
+    text-decoration: none;
+    font-size: 21px;
+}
+
